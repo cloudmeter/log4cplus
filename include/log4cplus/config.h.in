@@ -64,6 +64,9 @@
 /* Define if you have POSIX threads libraries and header files. */
 #undef HAVE_PTHREAD
 
+/* Have PTHREAD_PRIO_INHERIT. */
+#undef HAVE_PTHREAD_PRIO_INHERIT
+
 /* Define to 1 if you have the `stat' function. */
 #undef HAVE_STAT
 
@@ -224,7 +227,7 @@
 /* Define to 1 if you have the ANSI C header files. */
 #undef STDC_HEADERS
 
-/* Define to int if undefined. */
+/* Substitute for socklen_t */
 #undef socklen_t
 
 #endif // LOG4CPLUS_CONFIG_H
