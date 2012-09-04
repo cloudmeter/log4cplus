@@ -1,0 +1,16 @@
+.deps
+.libs
+*.o
+*.a
+*.lo
+*.la
+Makefile
+libtool
+config.log
+config.status
+include/log4cplus/config.h
+include/log4cplus/config/defines.hxx
+include/log4cplus/config/stamp-h2
+include/log4cplus/stamp-h1
+loggingserver/loggingserver
+*_test
